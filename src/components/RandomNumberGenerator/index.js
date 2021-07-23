@@ -23,12 +23,7 @@ class RandomNumberGenerator extends Component {
           <p className="para">
             Generate a random number in the range of 0 to 100
           </p>
-          <button
-            alt="generate"
-            type="button"
-            onClick={this.number}
-            className="btn"
-          >
+          <button type="button" onClick={this.number} className="btn">
             generate
           </button>
           <h1 className="hd2">{num}</h1>
